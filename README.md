@@ -74,8 +74,10 @@ python yt_summary_cli.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --length 
 # Using just a video ID
 python yt_summary_cli.py dQw4w9WgXcQ --length short
 ```
-Note:
-If you don't provide the --length flag, it defaults to short.
+### Notes:
+If you do not provide the --length flag, it defaults to short.
+
+If you do not put the URL in quotes and there is a wildcard character present, the terminal shell will return "no matches found"
 
 When you are finished using the application you can deactivate the virtual envrionment by typing "deactivate" in your terminal. 
 "(venv)" should no longer be stated on the next line in the terminal window. 
