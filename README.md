@@ -34,9 +34,9 @@ You can generate an API key here: https://platform.openai.com/api-keys
 ### 1. Clone the repository
 
 ```bash
-mkdir yt-summary-cli
-cd yt-summary-cli
 git clone https://github.com/Bradley-Worthen/YouTubeSummary.git
+cd YouTubeSummary
+
 ```
 ### 2. Create and activate a virtual environment (recommended)
 ```bash
