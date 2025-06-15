@@ -63,13 +63,13 @@ Note:
 ---
 
 ## 🚀 Usage
-You can provide either a YouTube video ID or a full URL.
+You can provide either a YouTube video ID or a full URL in quotes.
 ```bash
 python yt_summary_cli.py <video-id-or-url> --length <short|medium|long>
 
 ### Examples:
 # Using a full URL
-python yt_summary_cli.py https://www.youtube.com/watch?v=dQw4w9WgXcQ --length medium
+python yt_summary_cli.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --length long
 
 # Using just a video ID
 python yt_summary_cli.py dQw4w9WgXcQ --length short
